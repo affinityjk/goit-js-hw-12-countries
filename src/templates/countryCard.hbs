@@ -3,10 +3,10 @@
   <h1 class="card-title">{{name}}</h1>
 
   <div class="card-content">
-    <p class="card-text">Capital: <span class="text-desc">{{capital}}</span></p>
-    <p class="card-text">Population: <span class="text-desc">{{population}}</span></p>
+    <p class="card-text">Capital: <span class="card-text-desc">{{capital}}</span></p>
+    <p class="card-text">Population: <span class="card-text-desc">{{population}}</span></p>
     <p class="card-text">Languages:
-      <ul class="list">
+      <ul class="card-content-list">
         {{#each languages}}
         <li class="card-text"><span class="card-text-desc">{{this.name}}</span></li>
         {{/each}}
