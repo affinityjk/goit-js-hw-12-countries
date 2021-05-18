@@ -1,6 +1,9 @@
 import './sass/main.scss';
-import './sass/main.scss';
-import countries from './templates/countries.hbs';
-import countriesList from './templates/countriesList.hbs';
 import debounce from 'lodash.debounce';
+import countryTpl from './templates/countryCard.hbs';
+import countriesListTpl from './templates/countriesList.hbs';
+import API from './js/fetchCountries';
+
+const refs = getRefs();
+
 
