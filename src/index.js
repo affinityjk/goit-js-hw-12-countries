@@ -41,10 +41,10 @@ function renderCountryCard(data) {
   }
 }
 
-function onFetchError(error) {
+function onFetchError() {
   error({
     text: 'Invalid request',
-  })
+  });
 }
 
 function createMarkupCard(data) {
